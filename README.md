@@ -6,6 +6,7 @@ O clássico jogo da cobrinha, com frutas especiais que dão poderes.
 
 ## Como jogar
 
+- **Enter** ou **Espaço** para começar
 - **Setas** ou **WASD** para mover
 - **Espaço** para pausar
 - **M** liga/desliga o som
@@ -19,6 +20,8 @@ O clássico jogo da cobrinha, com frutas especiais que dão poderes.
 | 🟡 Dourada | pontos em dobro por 8s |
 | 🔵 Gelo | tempo mais lento por 6s |
 | 🟣 Fantasma | atravessa paredes por 7s |
+
+As frutas especiais (Dourada, Gelo e Fantasma) às vezes aparecem quando você come uma maçã. Elas valem +2 pontos e somem depois de 7 segundos, piscando nos últimos 2.
 
 A cobra acelera conforme você pontua. O recorde fica salvo no navegador.
 
