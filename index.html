@@ -324,7 +324,9 @@
     snake.forEach((s, i) => {
       const t = i / snake.length;
       const pad = i === 0 ? 1 : 2 + t * 3;
-      let color = i === 0 ? '#22c55e' : `hsl(${142 - t * 20}, 70%, ${55 - t * 15}%)`;
+      // arco-íris: cada segmento tem um matiz diferente, que desliza com o tempo
+      const hue = (i * 45 - now / 10) % 360;
+      let color = `hsl(${hue < 0 ? hue + 360 : hue}, 90%, ${i === 0 ? 60 : 58 - t * 10}%)`;
       if (gold) color = i === 0 ? '#eab308' : `hsl(${48 - t * 10}, 90%, ${60 - t * 15}%)`;
       ctx.globalAlpha = ghost ? 0.55 : 1;
       ctx.fillStyle = color;
