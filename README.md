@@ -8,6 +8,7 @@ O clássico jogo da cobrinha, com frutas especiais que dão poderes.
 
 - **Setas** ou **WASD** para mover
 - **Espaço** para pausar
+- **M** liga/desliga o som
 - No celular, deslize o dedo
 
 ## Frutas
